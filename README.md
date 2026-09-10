@@ -1,6 +1,16 @@
 # commcon-RSA
 repo for manuscript describing RSA analyses
 
+# Model info: 
+
+## Model 3:
+- For each commercial segment, 3 separate GLMs is modeled (i.e., (1) segment of interest for commercial, (2) remaining 2 segments of the commercial, (3) all other commercial segments)
+- 72 GLMs per participant 
+
+## Model 4:
+- 1 GLM is modeled per participant with 3 regressors of interest: (1) segment 1 for all commercials, (2) segment 2 for all commercials, (3) segment 3 for all commercials
+- Used only for the repetition suppression analysis in footnote 
+  
 # SETUP SCRIPTS
 
 ## STEP 01: these scripts will generate the files you need to set up the 1st level scripts 
