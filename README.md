@@ -27,7 +27,7 @@
 - _batch_estimate_PRE_job.m_: run script to estimate 1st levels for model 3 for PRE run
 - _batch_estimate_POST_job.m_: run script to estimate 1st levels for model 3 for POST run
 
-## STEP 03: these scripts will extract the betas and compute the correlatin matrices needed for RSA analyses 
+## STEP 03: these scripts will extract the betas and compute the correlation matrices needed for RSA analyses 
 - _extract_beta_descrip.m_: Extracts beta-map descriptions for each subject and commercial from the Model 3 PRE and POST for each subject
 - _Com-Beta_mappings.R_: identifies the beta maps for each commercial seg for every participant and creates separate PRE and POST files
 extract_beta_descrip_M4.m: extracts descriptions of all beta images for each subject from the PRE Model 4
