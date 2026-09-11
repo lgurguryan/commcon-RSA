@@ -27,25 +27,37 @@
   - Location: /Volumes/Poodle/VmPFC_symmetric_20141024
 - _combine-vmpfc-mni-bic.sh:_ combines the MNI ROIs to build the vmPFC
   - Location: /Volumes/Poodle/VmPFC_symmetric_20141024
-- _create-a1.sh:_ creates A1 from Human Connectome Project 
+- _create-a1.sh:_ creates A1 from Human Connectome Project
+  - Location: /Volumes/Chi/HCPex_v1.1/ROIs
 
 # SETUP SCRIPTS
 
 ## STEP 01: these scripts will generate the files you need to set up the 1st level scripts 
 - _create-onset-files-M3.R_: extract/create onset files for model 3 (Pre and Post separate; 1 regressor per commercial segment of interest, the remaining segments of the commercial of interest, and all other commercials)
+  - Location: /Users/yorkie/Documents/CommCon/data/raw_behavioral
 - _create-onset-files-M4.R_: extract/create onset files for model 4 (PRE only, with 3 regressors (seg-0, seg-1, and seg-2) for all commercials together; used for footnote analysis)
-- _create_confound_files.R_: creates confounds file for nuisance regressors 
+  - Location: /Users/yorkie/Documents/CommCon/data/raw_behavioral
+- _create_confound_files.R_: creates confounds file for nuisance regressors
+  - Location: /Volumes/BrusselsGriffon/CommCon
 - _create_mat_files_for_job_M3_.m: Take timing txt file and convert to .mat file needed for 1st levels
-- _create_mat_files_for_job_M4.m_: Take timing txt file and convert to .mat file needed for 1st levels 
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
+- _create_mat_files_for_job_M4.m_: Take timing txt file and convert to .mat file needed for 1st levels
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
 
 ## STEP 02: these scripts will run/estimate the 1st level models 
 - _Run_1stLevels_PRE_M3.m_: run script to create 1st levels for model 3 for PRE run
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _Run_1stLevels_POST_M3.m_: run script to create 1st levels for model 3 for POST run
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _REPSUP_1stLevels_M4.m_: run script to create 1st levels for model 4 for PRE run
-- _batch_estimate_REPSUP_M4_job.m_: run script to estimate 1st levels for model 4 for PRE run
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
 - _batch_estimate_PRE_job.m_: run script to estimate 1st levels for model 3 for PRE run
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _batch_estimate_POST_job.m_: run script to estimate 1st levels for model 3 for POST run
-
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
+- batch_estimate_REPSUP_M4_job: script to estimate the 1st levels for model 4 PRE
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
+ 
 ## STEP 03: these scripts will extract the betas and compute the correlation matrices needed for RSA analyses 
 - _extract_beta_descrip.m_: Extracts beta-map descriptions for each subject and commercial from the Model 3 PRE and POST for each subject
 - _Com-Beta_mappings.R_: identifies the beta maps for each commercial seg for every participant and creates separate PRE and POST files
