@@ -5,7 +5,7 @@
 ## Model 3:
 - For each commercial segment, 3 separate GLMs is modeled (i.e., (1) segment of interest for commercial, (2) remaining 2 segments of the commercial, (3) all other commercial segments)
 - 72 GLMs per participant
-- Data locations: 
+**- Data locations: **__
   - PRE data: /Volumes/Chi/Model3_PRE
   - POST data: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_POST
   - Difference (POST-PRE): /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_POST-PRE
