@@ -4,11 +4,17 @@
 
 ## Model 3:
 - For each commercial segment, 3 separate GLMs is modeled (i.e., (1) segment of interest for commercial, (2) remaining 2 segments of the commercial, (3) all other commercial segments)
-- 72 GLMs per participant 
-
+- 72 GLMs per participant
+- Data locations: 
+  - PRE data: /Volumes/Chi/Model3_PRE
+  - POST data: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_POST
+  - Difference (POST-PRE): /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_POST-PRE
+   
 ## Model 4:
 - 1 GLM is modeled per participant with 3 regressors of interest: (1) segment 1 for all commercials, (2) segment 2 for all commercials, (3) segment 3 for all commercials
 - Used only for the repetition suppression analysis in footnote
+- Data locations:
+  - PRE data: /Volumes/Poodle/Model4_REPSUP
 
 # ROI SCRIPTS: 
 - _extract-ashs-labels_hipp-sub.sh:_ extracts/creates ROIs using the outputs from ASHSs
