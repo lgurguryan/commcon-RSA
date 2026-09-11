@@ -96,7 +96,7 @@ extract_beta_descrip_M4.m: extracts descriptions of all beta images for each sub
 # ANALYSIS SCRIPTS:
 - _common-demo.R_: demographics info
   - Location: /Users/yorkie/Documents/CommCon
-- _behavioural_MemTest_data.R_: computes averages for post-scan source memory test
+- _behavioural_MemTest_data.R_: computes averages for post-scan source memory test 
   - Location: /Users/yorkie/Documents/CommCon/data
 - _lme_ashs.R_: RSA analysis in the ASHS ROIs (hippocampus, PHC, PRC)
   - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
