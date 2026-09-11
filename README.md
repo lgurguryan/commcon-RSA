@@ -95,9 +95,16 @@ extract_beta_descrip_M4.m: extracts descriptions of all beta images for each sub
     
 # ANALYSIS SCRIPTS:
 - _common-demo.R_: demographics info
+  - Location: /Users/yorkie/Documents/CommCon
 - _behavioural_MemTest_data.R_: computes averages for post-scan source memory test
-- _lme_ashs.R_: RSA analysis in the ASHS ROIs (hippocampus, PHC, PRC).
+  - Location: /Users/yorkie/Documents/CommCon/data
+- _lme_ashs.R_: RSA analysis in the ASHS ROIs (hippocampus, PHC, PRC)
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _lme.R_: RSA analysis in the vmPFC, PMC, A1
-- _brain-behaviour-model3-lme.R_: analysis examining relationship between source memory accuracy and pattern similarity 
-- _REPSUP_conceptual-rep.R_: conceptual repetition suppression analysis (seg1-seg3) using model3 (segment level GLMS) PRE 
-- _REPSUP_M4.R_: conceptual repetition suppression analysis using model 4 (i.e., 1 GLM per participant) PRE 
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
+- _brain-behaviour-model3-lme.R_: analysis examining relationship between source memory accuracy and pattern similarity
+  - Location: /Users/yorkie/Documents/CommCon/data
+- _REPSUP_conceptual-rep.R_: conceptual repetition suppression analysis (seg1-seg3) using model3 (segment level GLMS) PRE
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
+- _REPSUP_M4.R_: conceptual repetition suppression analysis using model 4 (i.e., 1 GLM per participant) PRE
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
