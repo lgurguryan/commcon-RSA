@@ -8,8 +8,16 @@
 
 ## Model 4:
 - 1 GLM is modeled per participant with 3 regressors of interest: (1) segment 1 for all commercials, (2) segment 2 for all commercials, (3) segment 3 for all commercials
-- Used only for the repetition suppression analysis in footnote 
-  
+- Used only for the repetition suppression analysis in footnote
+
+# ROI SCRIPTS: 
+- _extract-ashs-labels_hipp-sub.sh:_ extracts/creates ROIs using the outputs from ASHSs
+- _normalize-ashsROIs.sh:_ normalizes the ROIs to MNI space (same space as funcs for analysis)
+- _resample_pmc.sh:_ resample/binarize Baldassano mask to match data
+- _resample_vmpfc.sh:_ resample/binarize to match data 
+- _combine-vmpfc-mni-bic.sh:_ combines the MNI ROIs to build the vmPFC
+- _create-a1.sh:_ creates A1 from Human Connectome Project 
+
 # SETUP SCRIPTS
 
 ## STEP 01: these scripts will generate the files you need to set up the 1st level scripts 
