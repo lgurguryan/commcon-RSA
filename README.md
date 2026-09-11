@@ -60,24 +60,39 @@
  
 ## STEP 03: these scripts will extract the betas and compute the correlation matrices needed for RSA analyses 
 - _extract_beta_descrip.m_: Extracts beta-map descriptions for each subject and commercial from the Model 3 PRE and POST for each subject
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _Com-Beta_mappings.R_: identifies the beta maps for each commercial seg for every participant and creates separate PRE and POST files
 extract_beta_descrip_M4.m: extracts descriptions of all beta images for each subject from the PRE Model 4
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _Seg-Beta_mappings.R_: combines beta-map info from all subjects into a file, identifying the beta maps corresponding to the 3 task regressors (seg-0, seg-1, and seg-2); model 4
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
 - _extract_beta_values_from_MULTIPLE_ROIs_PRE.m_: model 3; extract PRE betas + correlation matrix from vmPFC, PMC, A1
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_MULTIPLE_ROIs_POST.m_: model 3; extract POST betas + correlation matrix from vmPFC, PMC, A1
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_MULTIPLE_ROIs_POST_minus_PRE.m_: model 3; compute difference score betas + correlation matrix from vmPFC, PMC, A1
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_ASHS_ROIs_PRE.m_: model 3; extract PRE betas + correlation matrix from hippocampus, PHC, PRC
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_ASHS_ROIs_POST.m_: model 3; extract POST betas + correlation matrix from hippocampus, PHC, PRC
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_ASHS_ROIs_POST_minus_PRE.m_: model 3; compute difference score betas + correlation matrix from hippocampus, PHC, PRC
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _extract_beta_values_from_ROIs_REPSUP_M4.m_: extract PRE betas for model 4 (for footnote repsup analysis) from vmPFC, PMC, and A1
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
 - _extract_beta_values_from_ROIs_ashs_REPSUP_M4.m_: extract PRE betas for model 4 (for footnote repsup analysis) from hippocampus, PHC, PRC
+  - Location: /Volumes/Poodle/Model4_REPSUP/Model4_scripts
 
 ## STEP 04: These scripts clean/prep the corr matrices for the RSA analyses
 - _pick_pairs_M3.R_: creates txt files for the pairs of commercials that we care about for RSA analysis
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _order_rows_for_corr_plots_MULTIPLE_ROI.R_: reorders corr matrices according to the participant's actual viewing sequence; model 3, all ROIs
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _save_corr_mat_with_commercial_labels_MULTIPLE_ROI.R_: adds commercial names to matrices; model 3, all ROIs
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
 - _select_corrs_for_pairs_MULTIPLE_ROI.R_: picks out the commercial pairs we care about for RSA
-
+  - Location: /Volumes/BrusselsGriffon/CommCon/SPM_results/Model3_scripts
+    
 # ANALYSIS SCRIPTS:
 - _common-demo.R_: demographics info
 - _behavioural_MemTest_data.R_: computes averages for post-scan source memory test
