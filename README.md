@@ -17,11 +17,16 @@
   - PRE data: /Volumes/Poodle/Model4_REPSUP
 
 # ROI SCRIPTS: 
-- _extract-ashs-labels_hipp-sub.sh:_ extracts/creates ROIs using the outputs from ASHSs
-- _normalize-ashsROIs.sh:_ normalizes the ROIs to MNI space (same space as funcs for analysis)
+- _extract-ashs-labels.sh:_ extracts/creates ROIs using the outputs from ASHS
+  - Location: /Volumes/Poodle/ashs_output
+- _normalize-ashsROIs.sh:_ normalizes the ASHS ROIs to MNI space (same space as funcs for analysis)
+  - Location: /Volumes/Poodle/ashs_output
 - _resample_pmc.sh:_ resample/binarize Baldassano mask to match data
-- _resample_vmpfc.sh:_ resample/binarize to match data 
+  - Location: /Volumes/Poodle/Baldassano_ROIs
+- _resample_vmpfc.sh:_ resample/binarize to match data
+  - Location: /Volumes/Poodle/VmPFC_symmetric_20141024
 - _combine-vmpfc-mni-bic.sh:_ combines the MNI ROIs to build the vmPFC
+  - Location: /Volumes/Poodle/VmPFC_symmetric_20141024
 - _create-a1.sh:_ creates A1 from Human Connectome Project 
 
 # SETUP SCRIPTS
